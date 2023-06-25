@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+h2 {
+  text-align: center;
+  padding: 64px 0;
+}
+
+div {
+  border: 2px solid #000;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+div h3 {
+  border-bottom: 2px solid #000;
+  padding: 8px;
+  font-size: 12px;
+}
+
+div p {
+  padding: 8px;
+  font-size: 12px;
+}
+
+div + div {
+  margin-top: 8px;
+}
+
+audio {
+  width: 100px;
+  height: 32px;
+}
+
+small {
+  background-color: rgba(101, 121, 114, 0.349);
+}
+
+.july {
+  background-image:url(img/july.png) ;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding: 16px;
+}
+
+.august {
+  background-image:url(img/august.jpg) ;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding: 16px;
+}
+
+.sept {
+  background-image:url(img/sept.png) ;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding: 16px;
+}
+
+.oct{
+  background-image:url(img/oct.png) ;
+  /* background-size: cover; */
+  /* background-repeat: repeat-y; */
+  background-position: bottom;
+  padding: 16px;
+}
+
+.nov{
+  background-image:url(img/nov.jpg) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: bottom;
+  padding: 16px;
+}
+
+.dec{
+  background-image:url(img/dec.jpg) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+.jan{
+  background-image:url(img/jan.png) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+.feb{
+  background-image:url(img/feb.jpg) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+.march{
+  background-image:url(img/march.png) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+.april{
+  background-image:url(img/april2.png) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+.may{
+  background-image:url(img/may.jpg) ;
+  background-size: cover; 
+   background-repeat: repeat-y;
+  background-position: center bottom;
+  padding: 16px;
+}
+
+
+
+.week {
+  display: flex;
+}
+
+.week + .week {
+  margin-top: 8px;
+}
+
+.prologe {
+  background-color: aliceblue;
+}
+
+.ws {
+  background-color: rgb(127, 255, 212);
+}
+
+.music {
+  background-color: gold;
+}
+
+.gassyuku {
+  background-color: silver;
+}
+
+.challenge {
+  background-color: tomato;
+}
+
+.giant {
+  background-color: violet;
+}
+
+.answer {
+  background-color: #00000015;
+  color: #222121;
+  font-size: 36px;
+}
+
+.jojo {
+  background-image: url(img/jojo5.jpg);
+  color: #fff;
+  -webkit-text-stroke: 0.1px #000;
+  font-size: 20px;
+}
